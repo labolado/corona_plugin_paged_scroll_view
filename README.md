@@ -12,22 +12,38 @@
 
 The PagedScrollView plugin can be used in your [Corona](https://coronalabs.com/products/corona-sdk/) project. It enables you to add paged scroll view components into your projects easily.
 
-![hview](images/hview.gif?raw=true "hview")
-![vview](images/vview.gif?raw=true "vview")
 
-## Syntax
 
-	local PLUGIN_NAME = require "plugin.PLUGIN_NAME"
+## Usage
+``````lua
+	local rows = 2
+	local columns = 3
+	local items = {}
+	local width = 200
+	local height = 150
 
+	for i = 1, 29 do
+		items[i] = "D" .. tostring(i)
+	end
+	local PagedScrollView = require "plugin.PagedScrollView"
+	local scrollView      = PagedScrollView.create(sceneGroup,  width, height, rows, columns, #items)
+	scrollView:setDebug(false)
+	scrollView:setDirection(1)      --0:horizontal 1:vertical 
+	scrollView:setLazyLoading(false)
+	scrollView:setAutoFillTail(false)
+	scrollView:setPadding(0, 10, 10, 0) --left, top, right, buttom
+
+
+``````
 ### Functions
 
-##### [PLUGIN_NAME.loadTable()](loadTable.markdown)
+##### [PagedScrollView.create()](PagedScrollView.md)
 
-##### [PLUGIN_NAME.printTable()](printTable.markdown)
+##### [scrollView:setDebug()](printTable.markdown)
 
-##### [PLUGIN_NAME.saveTable()](saveTable.markdown)
+##### [scrollView:setDirection()](saveTable.markdown)
 
-##### [PLUGIN_NAME.FUNCTION()](FUNCTION.markdown)
+##### [scrollView.FUNCTION()](FUNCTION.markdown)
 
 
 ### Properties
