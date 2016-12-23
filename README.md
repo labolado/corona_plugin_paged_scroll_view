@@ -37,7 +37,7 @@ The PagedScrollView plugin can be used in your [Corona](https://coronalabs.com/p
 ``````
 ### Functions
 
-##### [PagedScrollView.create()](PagedScrollView.md)
+##### [PagedScrollView.create()](#PagedScrollView.md)
 
 ##### [scrollView:setDebug()](printTable.markdown)
 
