@@ -107,15 +107,15 @@ More support is available from the PUBLISHER_NAME team:
 
 | Platform                     | Supported
 | ---------------------------- | ---------------------------- 
-| iOS                          | No
-| Android                      | No
+| iOS                          | Yes
+| Android                      | Yes
 | Android (GameStick)          | No
-| Android (Kindle)             | No
-| Android (NOOK)               | No
-| Android (Ouya)               | No
-| Mac App                      | No
-| Win32 App                    | No
-| Windows Phone 8              | No
-| Corona Simulator (Mac)       | No
-| Corona Simulator (Win)       | No
+| Android (Kindle)             | Not Test
+| Android (NOOK)               | Not Test
+| Android (Ouya)               | Not Test
+| Mac App                      | Yes
+| Win32 App                    | Yes
+| Windows Phone 8              | Not Test
+| Corona Simulator (Mac)       | Yes
+| Corona Simulator (Win)       | Yes
 
